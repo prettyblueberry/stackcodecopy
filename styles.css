@@ -1,0 +1,18 @@
+.copy_button {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #f48024;
+  background-color: white;
+  
+  border-radius: 8px;
+  border: 2px solid #f48024;
+}
+
+.copy_button:hover {
+  cursor: pointer;
+  background-color: #f48024;
+  color: white;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Stackcopy",
+  "description": "Stack Overflow Copying",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["http://stackoverflow.com/*", "https://stackoverflow.com/*"],
+      "js": ["copy.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
