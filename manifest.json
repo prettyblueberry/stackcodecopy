@@ -1,7 +1,7 @@
 {
-  "name": "Stackcopy",
-  "description": "Stack Overflow Copying",
-  "version": "1.0",
+  "name": "StackCopy",
+  "description": "Adds a button for easily copying formatted code snippets from stackoverflow",
+  "version": "0.0.1",
   "manifest_version": 3,
   "content_scripts": [
     {
@@ -9,5 +9,8 @@
       "js": ["copy.js"],
       "css": ["styles.css"]
     }
-  ]
+  ],
+  "icons": {
+    "768": "stack_logo.png"
+  }
 }
