@@ -1,8 +1,8 @@
 {
-  "name": "StackCopy",
+  "name": "StackCodeCopy",
   "description": "Adds a button for easily copying formatted code snippets from stackoverflow",
   "version": "0.0.1",
-  "manifest_version": 3,
+  "manifest_version": 4,
   "content_scripts": [
     {
       "matches": ["http://stackoverflow.com/*", "https://stackoverflow.com/*"],
